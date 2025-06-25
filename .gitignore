@@ -1,0 +1,15 @@
+# ignore
+.DS_Store
+*.DS_Store
+_build/.DS_Store
+.DS_Store
+build/
+selfshadingcorrection.egg-info/
+dist/
+tests/test_private.py
+_build/
+_static/
+_templates/
+__pycache__/
+selfshadingcorrection/__pycache__/
+readme.docx
