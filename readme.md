@@ -37,9 +37,8 @@ ssc.run(file_in, file_out, start_column, sza_column, radius)
 
 **Input Data Format**
 
-- **Sample**: See example input and output data at in the selfshadingcorrection/tests folder.
-- **Metadata columns** (before start\_column):
-Must include a column for the solar zenith angle in degrees. All metadata columns will be copied to the output as is.
+- **Examples**: See example input and output data at in the selfshadingcorrection/tests folder.
+- **Metadata columns** (before start\_column): All metadata columns will be copied to the output as is. Must include a column for the solar zenith angle in degrees. 
 - **Reflectance columns** (starting at start\_column):
 Column names should follow the format Rxxx, where xxx is the wavelength in nm.
 - **Reflectance values**:
