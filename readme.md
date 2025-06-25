@@ -8,6 +8,8 @@ Applies self-shading correction to water-leaving reflectance measurements collec
 - Input reflectance must include bands at or near **440 nm**, **550 nm**, and **750 nm**. (The closest available wavelengths are used)
 
 
+Home page: <a href="https://github.com/yulunwu8/selfshadingcorrection" target="_blank">https://github.com/yulunwu8/selfshadingcorrection</a>
+
 
 ## Installation 
 
