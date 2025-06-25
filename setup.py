@@ -5,7 +5,7 @@ with open("readme.md", "r") as fh:
 
 setup(
     name='selfshadingcorrection',
-    version='1.0.1',
+    version='1.0.2',
     author='Yulun Wu',
     author_email='yulunwu8@gmail.com',
     description='Applies self-shading correction to water-leaving reflectance measurements collected through the skylight-blocked approach',
