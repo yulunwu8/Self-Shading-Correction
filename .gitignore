@@ -13,3 +13,6 @@ _templates/
 __pycache__/
 selfshadingcorrection/__pycache__/
 readme.docx
+~$readme.docx
+.gitignore
+.gitignore_

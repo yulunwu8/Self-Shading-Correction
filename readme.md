@@ -2,7 +2,7 @@
 
 ## Description
 
-Applies self-shading correction to water-leaving reflectance measurements collected through the skylight-blocked approach, following the method of Yu et al. (2021).
+Applies self-shading correction to water-leaving reflectance measurements collected through the skylight-blocked approach, following Yu et al. (2021).
 
 - Valid for wavelengths between **300** and **1000 nm**. (Extending beyond this range requires additional water backscattering data)
 - Input reflectance must include bands at or near **440 nm**, **550 nm**, and **750 nm**. (The closest available wavelengths are used)
