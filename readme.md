@@ -26,9 +26,9 @@ import selfshadingcorrection as ssc
 
 file_in = 'Rw_shaded.csv'        # Path to input CSV with shaded water-leaving reflectance.
 file_out = 'Rw_corrected.csv'    # Path to output CSV with self-shading-corrected reflectance.
-start_column = 10                # Index of the first reflectance column (0-based).
+start_column = 11                # Index of the first reflectance column (0-based).
 sza_column = 'sza'               # Name of the column containing solar zenith angle (in degrees).
-radius = 0.05                    # Radius of the instrument cone (in meters).
+radius = 0.038                    # Radius of the instrument cone (in meters).
 
 ssc.run(file_in, file_out, start_column, sza_column, radius)
 ```
@@ -37,7 +37,7 @@ ssc.run(file_in, file_out, start_column, sza_column, radius)
 
 **Input Data Format**
 
-- **Examples**: See example input and output data at in the selfshadingcorrection/tests folder.
+- **Examples**: See example input and output data (water-leaving reflectance collected in the South Nation River and the Ottawa River in Eastern Ontario, Canada, in Summer 2023) in the selfshadingcorrection/tests folder. 
 - **Metadata columns** (before start\_column): All metadata columns will be copied to the output as is. Must include a column for the solar zenith angle in degrees. 
 - **Reflectance columns** (starting at start\_column):
 Column names should follow the format Rxxx, where xxx is the wavelength in nm.
